@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+
+# Nunca versionar: PDFs de artigos (direitos autorais), dados de ECG (baixados das fontes), estado de trabalho
+*.pdf
+dados/*
+!dados/README.md
+ESTADO.md
+briefings/
+bastidores/
